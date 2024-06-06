@@ -23,7 +23,23 @@
 - `git reset [file]`> unstage a file
 - `git diff` > difference of what is changed but not staged
 - `git diff --staged` >  diff of what is changed but not yet committed
+
+# COMMITS
 - `git commit -m "msg"` > commit your staged content as a new commit
+- Can add additional detail with the follwoing options to indicate the commit's relation to the program
+  <details>
+    <summary> *`-m "****: "msg"`*</summary>
+    <br>
+    <ul>
+    <li>**feat**-> feature</li>
+    <li>**fix**</li>
+    <li>**chore**-> routine task</li>
+    <li>**refactor**: improve the code structure</li>
+    <li>**docs**</li>
+    <li>**style**</li>
+    </ul>
+  </details>
+
 
 
 # BRANCH & MERGE
@@ -33,6 +49,12 @@
 - `git checkout` >
 - `git merge` >
 - `git log` >
+- `git log` >
+- `git log` >
+- `git log` >
+- `git log` >
+- `git log` >
+
 
 # INSPECT & COMPARE
 

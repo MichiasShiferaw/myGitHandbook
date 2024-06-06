@@ -28,15 +28,20 @@
 - `git commit -m "msg"` > commit your staged content as a new commit
 - Can add additional detail with the follwoing options to indicate the commit's relation to the program
   <details>
-    <summary> *`-m "****: "msg"`*</summary>
+    <summary> <code>`-m "****: "msg"`</code></summary>
     <br>
     <ul>
-    <li>**feat**-> feature</li>
-    <li>**fix**</li>
-    <li>**chore**-> routine task</li>
-    <li>**refactor**: improve the code structure</li>
-    <li>**docs**</li>
-    <li>**style**</li>
+    <li>feat**-> feature</li>
+    <li>fix</li>
+    <li>chore: routine task</li>
+    <li>refactor: improve the code structure</li>
+    <li>docs: Documenation-related</li>
+    <li>style: Related to styling and formatting of the codebase</li>
+    <li>test: test-related changes</li>
+    <li>perf: performance-related change</li>
+    <li>ci: Continuous integration system-related cghanges</li>
+    <li>build: related to the build process</li>
+    <li>revert: changes to revert a previous commit</li>
     </ul>
   </details>
 
@@ -46,7 +51,11 @@
 
 - `git branch` >
 - `git branch <branch-name>` >
+- `git branch -d <branch-name> ` > Deletes the specified branch
+- `git branch -a` > lists all local and remote branches
 - `git checkout` >
+- `git checkout <branch-name>` >
+- `git checkout -b <new-branch-name> ` >
 - `git merge` >
 - `git log` >
 - `git log` >

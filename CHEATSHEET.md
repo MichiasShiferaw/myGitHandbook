@@ -1,6 +1,7 @@
+# MY GIT HANDBOOK 
+![NUX_Octodex](https://github.com/MichiasShiferaw/myGitHandbook/assets/68077955/ae9c78f8-8ab6-48f1-863c-c9c06fc8b7c9)
 
-
-# SETUP
+## SETUP
 *Configuring user information used across local repositories*
 - ` git config --global user.name "Michias Shiferaw"`
 - ` git config --global user.email "*****@***.ca"`
@@ -9,14 +10,14 @@
 
 <div style="background-color: rgb(124,252,0);">
   
-  # SETUP & INIT
+  ## SETUP & INIT
   - `git init` > initialize an existing directory as a Git Repo
   - `git clone` [url] > retrieve entire repo *add . after the url to keep the clone in the curr folder
   - `git clone -branch <branch_name> [url]` > Clones a specific branch from a repo
 
 </div>
 
-# STAGE & SNAPSHOT
+## STAGE & SNAPSHOT
 - `git status` > displays modified files in working directory
 - `git status -ignored ` > Displays ignored files
 - `git add [file]` > adda file as it looks now
@@ -26,7 +27,7 @@
 
 
 
-# COMMITS
+## COMMITS
 - `git commit -m "msg"` > commit your staged content as a new commit
 - Can add additional detail with the follwoing options to indicate the commit's relation to the program
   <details>
@@ -49,7 +50,7 @@
 
 
 
-# BRANCH & MERGE
+## BRANCH & MERGE
 
 - `git branch` > list your branches
 - `git branch <branch-name>` > create a new branch
@@ -64,17 +65,17 @@
 - `git log --follow <file>` > display the commit hostory of a file, including its renames
 - `git log -all` > displays the commit history of all branches
 
-# GIT TAG
+## GIT TAG
 - `git tag` > Lists all tags in the repo
 - `git tag <tag-name>` > Create a lightweight tag at the current commit
 
-# TEMPORARY COMMITS
+## TEMPORARY COMMITS
 - `git stash` > Stashes the changes in the working directory, allowing you to switch to a different branch or commit
 - `git stash list` > Lists all stashes in the repo
 - `git stash pop` > Applies and remove the most recent stash from the stash list
 - `git stash drop` > Removes the most recent stash from the stash list
 
-# SHARE & UPDATE
+## SHARE & UPDATE
 - `git remote add <alias> [url]` > add a git URL as an alias
 - `git fetch <alias>` > fetch down all the branches from that Git remote
 -  `git fetch -prune` > Removes any remote-tracking branches that no longer exist on the remote repository
@@ -82,12 +83,12 @@
 - `git push <alias>/<branch>` > transmit local branch commits to the remote repo branch
 - `git pull` > fetch and merge any commits from the tracking remote branch
 
-# TRACKING PATH CHANGES
+## TRACKING PATH CHANGES
 - `git rm <file>` > dete the file from project and stage the removal for commit
 - `git mv <existing-path> <new-path>` > change an existing file path and stage the move
 - `git log --stat -M` > show all commit logs with indication of any path that moved
 
-# REWRITE HISTORY
+## REWRITE HISTORY
 - `git rebase <branch>` > Apply any commits of curr branch ahead of specified one
 - `git reset --soft [commit]` > Preserves the changes in the staging area
 - `git reset --hard [commit]` > Clear staging area, rewrite working trree from specified commit
@@ -102,11 +103,11 @@
 
 
 
-# REMOTE REPOSITORIES
+## REMOTE REPOSITORIES
 
 
 
-# INSPECT & COMPARE
+## INSPECT & COMPARE
 
 
 
